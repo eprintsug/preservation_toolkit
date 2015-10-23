@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="no" ?>
+<!DOCTYPE phrases SYSTEM "entities.dtd">
+
+<epp:phrases xmlns="http://www.w3.org/1999/xhtml" xmlns:epp="http://eprints.org/ep3/phrase" xmlns:epc="http://eprints.org/ep3/control">
+
+	<epp:phrase id="Plugin/Screen/Admin/FormatsRisks:title">Formats/Risks</epp:phrase>
+	<epp:phrase id="Plugin/Screen/Admin/FormatsRisks:description">View data formats and related risks to documents in your repository.</epp:phrase>
+	
+	<epp:phrase id="Plugin/Screen/Admin/FormatsRisks:inprogress">Scan in progress... (if this stalls, hit the "<epc:phrase ref="Plugin/Screen/Admin/FormatsRisks:action:reset_scan:title"/>" button)</epp:phrase>
+	<epp:phrase id="Plugin/Screen/Admin/FormatsRisks:action:classify_repo:title">Start Classification</epp:phrase>
+	<epp:phrase id="Plugin/Screen/Admin/FormatsRisks:action:reset_scan:title">Reset Classification</epp:phrase>
+	
+	<epp:phrase id="Plugin/Screen/Admin/FormatsRisks:action:recount:title">Request File Type Recount</epp:phrase>
+	<epp:phrase id="Plugin/Screen/Admin/FormatsRisks:recount_success">A recount request has been queued, this may take up to 20 minutes to complete.</epp:phrase>
+	
+	<epp:phrase id="Plugin/Screen/Admin/FormatsRisks:last_changed">Last Update: </epp:phrase>
+
+	<epp:phrase id="Plugin/Screen/Admin/FormatsRisks:delete_plan_confirm">Are you sure you want to delete this preservation plan?</epp:phrase>
+
+	<epp:phrase id="Plugin/Screen/Admin/FormatsRisks:no_scores">Format Breakdown</epp:phrase>
+	<epp:phrase id="Plugin/Screen/Admin/FormatsRisks:high_risk">High Risk Objects</epp:phrase>
+	<epp:phrase id="Plugin/Screen/Admin/FormatsRisks:medium_risk">Medium Risk Objects</epp:phrase>
+	<epp:phrase id="Plugin/Screen/Admin/FormatsRisks:low_risk">Low Risk Objects</epp:phrase>
+	<epp:phrase id="Plugin/Screen/Admin/FormatsRisks:no_objects">No Objects Found in Repository</epp:phrase>
+
+	<epp:phrase id="Plugin/Screen/Admin/FormatsRisks:unclassified_warning_cron">You have unclassified objects in your repository, these should be classified the next time the classification event runs (possibly overnight). If you contintue to see unclassified objects people content your system administrator.</epp:phrase>
+	<epp:phrase id="Plugin/Screen/Admin/FormatsRisks:unclassified_warning_button">You have unclassified objects in your repository, to classify these hit the "<epc:phrase ref="Plugin/Screen/Admin/FormatsRisks:action:classify_repo:title"/>" button below.</epp:phrase>
+	<epp:phrase id="Plugin/Screen/Admin/FormatsRisks:risk_reg_unstable">This EPrints install may be referecing a trial version of the risk analysis service. If you feel this is incorrect please contact the system administrator.</epp:phrase>
+
+
+	<epp:phrase id="Plugin/Screen/Admin/FormatsRisks:preservation_actions">Preservation Actions</epp:phrase>
+	<epp:phrase id="Plugin/Screen/Admin/FormatsRisks:download_file_selection">Download File Selection</epp:phrase>
+	<epp:phrase id="Plugin/Screen/Admin/FormatsRisks:download_pres_plan">Download Preservation Plan</epp:phrase>
+	<epp:phrase id="Plugin/Screen/Admin/FormatsRisks:upload_pres_plan">Upload Preservation Plan</epp:phrase>
+
+        <epp:phrase id="Plugin/Screen/Admin/FormatsRisks_download:action:get_files:title">Download</epp:phrase>
+	<epp:phrase id="Plugin/Screen/Admin/FormatsRisks_get_plan:action:get_plan:title">Download</epp:phrase>
+	<epp:phrase id="Plugin/Screen/Admin/FormatsRisks_delete_plan:action:delete_plan:title">Delete Plan</epp:phrase>
+	<epp:phrase id="Plugin/Screen/Admin/FormatsRisks_enact_plan:action:enact_plan:title">Enact Plan</epp:phrase>
+	
+	<epp:phrase id="Plugin/Screen/Admin/FormatsRisks:preservation_plans_in_use">Preservation Plans</epp:phrase>
+	<epp:phrase id="Plugin/Screen/Admin/FormatsRisks:id">ID</epp:phrase>
+	<epp:phrase id="Plugin/Screen/Admin/FormatsRisks:import_date">Import Date</epp:phrase>
+	<epp:phrase id="Plugin/Screen/Admin/FormatsRisks:formats_affected">Related Formats</epp:phrase>
+	<epp:phrase id="Plugin/Screen/Admin/FormatsRisks:quantity">Quantity</epp:phrase>
+	<epp:phrase id="Plugin/Screen/Admin/FormatsRisks:actions">Actions</epp:phrase>
+	<epp:phrase id="Plugin/Screen/Admin/FormatsRisks:plan_exists">A Preservation Plan for this Format Already Exists</epp:phrase>
+	<epp:phrase id="Plugin/Screen/Admin/FormatsRisks:upload_success"><div><b>Preservation Plan Upload Successful</b></div><p>Actions have been queued to be executed shortly and changes will be reflected below once completed. In order to view these changes please revisit or refresh this page later.</p></epp:phrase>
+
+
+
+	<epp:phrase id="Plugin/Screen/Admin/FormatsRisks:action:delete_plan_docs:title">Delete Docs</epp:phrase>
+	
+	<epp:phrase id="Plugin/Screen/Admin/FormatsRisks_enact_plan:success"><div><b>Plan Execution Successful</b></div><p>Actions have been queued to be executed shortly and changes will be reflected below once completed. In order to view these changes please revisit or refresh this page later.</p></epp:phrase>
+	<epp:phrase id="Plugin/Screen/Admin/FormatsRisks:delete_plan_docs_success"><div><b>Document Deletion Request Successful</b></div><p>Actions have been queued to be executed shortly and changes will be reflected below once completed. In order to view these changes please revisit or refresh this page later.</p></epp:phrase>
+	<epp:phrase id="Plugin/Screen/Admin/FormatsRisks_get_plan:failed"><p>Failed to Retrieve Preservation Plan</p></epp:phrase>
+	<epp:phrase id="Plugin/Screen/Admin/FormatsRisks_download:no_format"><p>No Format Specified</p></epp:phrase>
+	<epp:phrase id="Plugin/Screen/Admin/FormatsRisks_delete_plan:no_format"><p>No Format Specified</p></epp:phrase>
+	<epp:phrase id="Plugin/Screen/Admin/FormatsRisks_delete_plan_docs:no_format"><p>No Format Specified</p></epp:phrase>
+	<epp:phrase id="Plugin/Screen/Admin/FormatsRisks_download:failed"><p>Failed to Create Requested File</p></epp:phrase>
+	<epp:phrase id="Plugin/Screen/Admin/FormatsRisks_delete_plan:failed_in_delete"><p>Failed to Delete Preservation Plan</p></epp:phrase>
+	<epp:phrase id="Plugin/Screen/Admin/FormatsRisks_delete_plan:success"><p>Preservation Plan Deleted</p></epp:phrase>
+	
+</epp:phrases>
